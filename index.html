@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Matthew Sadecki</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdn.bootcss.com/typed.js/1.1.4/typed.min.js"></script>
+	    <style type="text/css">
+		    .write{
+			    font-size: 22px;
+		    }
+		    .container{
+			    text-align: center;
+		    }
+	    </style>
+        
+    </head>
+
+    <body>
+        <div class="row">
+            <div class="col-md-2 offset-md-2">
+                <header id="vertical_header">
+                    <img src="images/profilepic.jpg" alt="Matthew Sadecki" id="profilepic">
+                    <h1>Full Stack Web Developer</h1>
+                    <ul>
+                        <li><a href="#" id="navlinks">Home</a></li>
+                        <li><a href="#" id="navlinks">About</a></li>
+                        <li><a href="#" id="navlinks" >Services</a></li>
+                        <li><a href="#" id="navlinks">Education</a></li>
+                        <li><a href="#" id="navlinks">Experience</a></li>
+                        <li><a href="#" id="navlinks">Work</a></li>
+                        <li><a href="#" id="navlinks">Contact</a></li>
+                        <li id="navlinks">Copyright &copy;<script>document.write(new Date().getFullYear());</script> </li>
+                    </ul>
+                    
+                </header>
+            </div>
+            <div class="col-md-8">
+                <span class="write"></span>
+            </div>
+            <script type="text/javascript">
+                $(function(){
+                    $(".write").typed({
+                        strings: ["Welcome to ItSolutionStuff.com!", "Thanks for visit"],
+                        typeSpeed: 1,
+                    });
+                });
+            </script>
+        </div>
+    </body>
+</html>
