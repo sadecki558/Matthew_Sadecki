@@ -7,6 +7,9 @@
         <link rel="stylesheet" href="css/style.css">
         <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
         <script type="text/javascript" src="https://cdn.bootcss.com/typed.js/1.1.4/typed.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">        
 	    <style type="text/css">
 		    .write{
 			    font-size: 22px;
@@ -23,31 +26,45 @@
             <div class="col-md-2 offset-md-2">
                 <header id="vertical_header">
                     <img src="images/profilepic.jpg" alt="Matthew Sadecki" id="profilepic">
-                    <h1>Full Stack Web Developer</h1>
+                    <h1 id="logo">Matthew Sadecki</h1>
+                    <h1 id="position">Full Stack Web Developer in Toronto</h1>
                     <ul>
                         <li><a href="#" id="navlinks">Home</a></li>
-                        <li><a href="#" id="navlinks">About</a></li>
-                        <li><a href="#" id="navlinks" >Services</a></li>
+                        <li><a href="#" id="navlinks" >Skills</a></li>
                         <li><a href="#" id="navlinks">Education</a></li>
                         <li><a href="#" id="navlinks">Experience</a></li>
-                        <li><a href="#" id="navlinks">Work</a></li>
+                        <li><a href="#" id="navlinks">Portfolio</a></li>
                         <li><a href="#" id="navlinks">Contact</a></li>
-                        <li id="navlinks">Copyright &copy;<script>document.write(new Date().getFullYear());</script> </li>
                     </ul>
+                    <footer>
+                        Copyright 2018 &copy;
+                        <h1>Made with 
+                            <i class="fa fa-heart" id="heart" aria-hidden="true"></i>
+                            <i class="fa fa-coffee" id="coffee" aria-hidden="true"></i>
+                            <i class="fa fa-code" aria-hidden="true"></i></h1>
+                    </footer>
                     
                 </header>
             </div>
-            <div class="col-md-8">
-                <span class="write"></span>
-            </div>
-            <script type="text/javascript">
-                $(function(){
-                    $(".write").typed({
-                        strings: ["Welcome to ItSolutionStuff.com!", "Thanks for visit"],
-                        typeSpeed: 1,
+            <div class="col-md-7 offset-md-1">
+                <main>
+                    <h1>I <i class="fas fa-heart" style="color: red"></i><span class="write"></span></h1>
+                    <p><strong>Hi I'm Matthew Sadecki!</strong> I am currently a student at Queen's University and Univerisity of Toronto. At Queen's University I am studying Economics and at Univerisity of Toronto I am studying Full Stack Web Development. I have taken several computer science and physics courses and a couple finance courses while studying at Queen's University.</p>
+                    <h1>Download My Resume</h1>
+                </main>
+                <script type="text/javascript">
+                    $(function(){
+                        $(".write").typed({
+                            strings: [" Web Development", " Machine Learning"," Progressive Web Apps"," Python"," Data Analysis", " Tutoring Math, Physics, and Coding"],
+                            typeSpeed: 1,
+                            backSpeed: 1,
+                            cursorChar: '_',
+                            shuffle: true,
+                            loop: true,
+                        });
                     });
-                });
-            </script>
+                </script>
+            </div>
         </div>
     </body>
 </html>
