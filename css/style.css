@@ -15,6 +15,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
     margin-bottom: 1.5em; 
+    color: #000;
 }
 
 #position{
@@ -62,6 +63,30 @@ footer h1{
 }
 
 #resume{
+    
+}
+
+#typing{
+    font-size: 50px;
+}
+
+#home{
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+
+.hire{
+    background-color: #f9bf40;
+    padding: 30px;
+
+}
+
+.btn-hire{
+    border: 1px;
+    border-color: black;
+    border-style: solid;
     
 }
 
