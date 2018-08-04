@@ -14,6 +14,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
+    font-size: 20px;
     margin-bottom: 1.5em; 
     color: #000;
 }
@@ -63,11 +64,20 @@ footer h1{
 }
 
 #resume{
-    
+    border: 3px;
+    padding: 10px;
+    margin-top: 0.5%;
+    margin-bottom: auto;
+    border-color: #35e5c5;
+    border-style: solid;
+    background: #35e5c5;
+    color: white;
+    border-radius: 10px;
 }
 
 #typing{
     font-size: 50px;
+    margin-bottom: 5%;
 }
 
 #home{
@@ -77,9 +87,28 @@ footer h1{
     margin-bottom: 20%;
 }
 
+#home_logo_first{
+    height: 150px;
+    width: 150px;
+    margin-right: 0.5%;
+}
+
+#home_logo_child{
+    height: 150px;
+    width: 150px;
+    margin-right: 0.5%;
+}
+
+#home_logos_row{
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .hire{
     background-color: #f9bf40;
     padding: 30px;
+    margin-left: 3%;
 
 }
 
@@ -115,7 +144,16 @@ footer h1{
 }
 
 main{
-    margin-top: 100px;
+    margin-top: auto;
 }
 
+#skills{
+    margin-top: 3%;
+    margin-left:3%;
+    margin-bottom:5%;
+}
 
+#portfolio_image{
+    height: 150px;
+    width: 150px;
+}
