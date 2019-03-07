@@ -255,7 +255,7 @@ main{
     ##Screen = B/w 768px to 1024px
   */
   
-  @media (min-width: 768px) and (max-width: 1024px) {
+  @media (min-width: 640px) and (max-width: 1024px) {
     
 
     #vertical_header{
