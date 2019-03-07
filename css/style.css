@@ -65,6 +65,36 @@ footer h1{
 
 /* End of Vertical Header */
 
+/* Beginning of short bio */
+
+#home{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10%;
+    margin-bottom: 20%;
+    z-index: 1;
+    
+}
+
+#home_logo_first{
+    height: 150px;
+    width: 150px;
+    margin-right: 0.5%;
+}
+
+#home_logo_child{
+    height: 150px;
+    width: 150px;
+    margin-right: 0.5%;
+}
+
+#home_logos_row{
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* End of short bio */
 #position{
     display: block;
     margin-bottom: 2em;
@@ -100,33 +130,6 @@ footer h1{
 #typing{
     font-size: 50px;
     margin-bottom: 5%;
-}
-
-#home{
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 10%;
-    margin-bottom: 20%;
-    z-index: 1;
-    
-}
-
-#home_logo_first{
-    height: 150px;
-    width: 150px;
-    margin-right: 0.5%;
-}
-
-#home_logo_child{
-    height: 150px;
-    width: 150px;
-    margin-right: 0.5%;
-}
-
-#home_logos_row{
-    margin-top: 5%;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .hire{
@@ -227,7 +230,9 @@ main{
   
   @media (min-width: 1025px) and (max-width: 1280px) {
     
-
+    #desktop-only{
+        display: none;
+    }
     
     
   }
@@ -287,6 +292,8 @@ main{
   @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     
   
-    
+    #desktop-only{
+        display: none;
+    }
     
   }
