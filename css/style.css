@@ -185,27 +185,7 @@ main{
     width: 20rem;
 }
 
-/*Mobile Stuff*/
-#mobile-nav{
-    display: none;
-}
-#mobile-profile{
-    display: none;
-}
-#home_logos_row-mobile{
-    display: none;
-}
-#mobile-only{
-    display: none;
-}
 
-#skills-mobile-only{
-    display: none;
-}
-
-#home-mobile{
-    display: none;
-}
 
 /* Mobile stuff ends */
 /* 
