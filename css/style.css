@@ -1,3 +1,5 @@
+/* Beginning of Regular CSS Stuff */
+
 body{
     font-family: "Quicksand", Arial, sans-serif;
     font-weight: 400;
@@ -20,11 +22,16 @@ p {
     color: #000;
 }
 
-#position{
-    display: block;
-    margin-bottom: 2em;
-    font-size: 12px;
-    text-transform: uppercase;
+/* End of Regular CSS Stuff */
+
+/* Beginning of Vertical Header */
+
+#portfolio_image{
+    height: 300px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
 }
 
 footer{
@@ -33,15 +40,6 @@ footer{
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
     padding: 0 20px;
-    width: 100%; 
-}
-
-#logo{
-    text-align: center;
-    font-weight: 700;
-    font-size: 22px;
-    margin-bottom: .5em;
-    display: block;
     width: 100%; 
 }
 
@@ -62,7 +60,29 @@ footer h1{
     padding-left: 20px;
     padding-right:20px;
     position: fixed;
+    z-index: 1;
 }
+
+/* End of Vertical Header */
+
+#position{
+    display: block;
+    margin-bottom: 2em;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+
+
+#logo{
+    text-align: center;
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: .5em;
+    display: block;
+    width: 100%; 
+}
+
 
 #resume{
     font-size: 200%;
@@ -83,10 +103,12 @@ footer h1{
 }
 
 #home{
+    margin-right: auto;
     margin-left: auto;
-    margin-right:auto;
     margin-top: 10%;
     margin-bottom: 20%;
+    z-index: 1;
+    
 }
 
 #home_logo_first{
@@ -110,7 +132,6 @@ footer h1{
 .hire{
     background-color: #f9bf40;
     padding: 30px;
-    margin-left: 3%;
 
 }
 
@@ -158,13 +179,7 @@ main{
     margin-bottom:5%;
 }
 
-#portfolio_image{
-    height: 300px;
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2%;
-}
+
 
 #info{
     width: 20rem;
@@ -177,7 +192,16 @@ main{
 #mobile-profile{
     display: none;
 }
+#home_logos_row-mobile{
+    display: none;
+}
+#mobile-only{
+    display: none;
+}
 
+#skills-mobile-only{
+    display: none;
+}
 
 /* 
   ##Device = Desktops
@@ -218,6 +242,7 @@ main{
         width: 30rem;
         text-align: center;
         margin-right: 0px;
+        margin-left: 0px;
     }
 
     #mobile-nav{
@@ -228,9 +253,21 @@ main{
     }
     #mobile-profile{
         display: inline;
-        height: 15vh;
-        width: 15vh;
+        height: 20vh;
+        width: 20vh;
+        margin-top: 125%;
+        border-radius: 50%;
 
+
+    }
+    #skills{
+        margin: auto;
+    }
+    #home_logos_row-mobile{
+        display: inline;
+    }
+    #mobile-only{
+        display: block;
     }
     
   }

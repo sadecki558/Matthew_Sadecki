@@ -33,35 +33,14 @@
     </head>
 
     <body>
-        <div class="row">
-            <nav id="mobile-nav">
-                <ul id="slide-out" class="sidenav">
-                    <li><div class="user-view">
-                    <div class="background">
-                        <img src="../../public/images/background2.jpg">
-                    </div>
-                        <a href="#!user"><img class="circle" src="../../public/images/profile1.jpg"></a>
-                        <a href="#!name"><span class="white-text name">John Doe</span></a>
-                        <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
-                    </div>
-                    </li>
-                    <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
-                    <li><a href="#!">Second Link</a></li>
-                    <li><div class="divider"></div></li>
-                    <li><a class="subheader">Subheader</a></li>
-                    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
-                </ul>
-                <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            </nav>
-            <script>
-                    $(document).ready(function(){
-                    $('.sidenav').sidenav();
+
+        <!-- Desktop Version of Site Begins -->
+
         
-                    })
-            </script>
-                
+        <div class="row" id="desktop-only">
             <div class="col-md-2 offset-md-1">
-                <img src="images/profilepic.jpg" alt="Matthew Sadecki" id="mobile-profile">
+
+                <!-- Beginning of Vertical Header -->
                 <header id="vertical_header">
                     <img src="images/profilepic.jpg" alt="Matthew Sadecki" id="profilepic">
                     <h1 id="logo">Matthew Sadecki</h1>
@@ -79,14 +58,12 @@
                             <i class="fa fa-coffee" id="coffee" aria-hidden="true"></i>
                             <i class="fa fa-code" aria-hidden="true"></i></h1>
                     </footer>
-                    
                 </header>
+
+                <!-- End of Vertical Header -->
             </div>
 
-            
-                
-            
-            
+            <!-- Beginning of Short Bio -->
             <div class="col-md-8 offset-md-1" id="home">
                 <main>
                     <h1 id="typing">I <i class="fas fa-heart" style="color: red"></i><span class="write" id="typing"></span></h1>
@@ -115,29 +92,203 @@
                 </script>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-7 offset-md-4">
+        <!-- End of Short Bio -->
+
+        <!-- Desktop Version of Site Ends -->
+
+        <!-- Mobile Version of Site Begins -->
+        <div class="row" id="mobile-only">
+
+            <!-- Mobile Nav Begins-->
+            <nav id="mobile-nav">
+                <ul id="slide-out" class="sidenav">
+                    <li><div class="user-view">
+                    <div class="background">
+                        <img src="../../public/images/background2.jpg">
+                    </div>
+                        <a href="#!user"><img class="circle" src="../../public/images/profile1.jpg"></a>
+                        <a href="#!name"><span class="white-text name">John Doe</span></a>
+                        <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
+                    </div>
+                    </li>
+                    <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+                    <li><a href="#!">Second Link</a></li>
+                    <li><div class="divider"></div></li>
+                    <li><a class="subheader">Subheader</a></li>
+                    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+                </ul>
+                <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            </nav>
+            <script>
+                    $(document).ready(function(){
+                    $('.sidenav').sidenav();
+        
+                    })
+            </script>
+            <!-- Mobile Nav Ends-->
+
+            <!-- Mobile Bio Begins-->
+            <div class="col-md-2">
+                <img src="images/profilepic.jpg" alt="Matthew Sadecki" id="mobile-profile">
+                <header id="vertical_header">
+                    <h1 id="logo">Matthew Sadecki</h1>
+                    <h1 id="position">Full Stack Web Developer in Toronto</h1>
+                    <ul>
+                        <li><a href="#" id="navlinks">Home</a></li>
+                        <li><a href="#" id="navlinks" >Skills</a></li>
+                        <li><a href="#" id="navlinks">Portfolio</a></li>
+                        <!--<li><a href="#" id="navlinks">Contact</a></li>-->
+                    </ul>
+                    <footer>
+                        Copyright 2019 &copy;
+                        <h1>Made with 
+                            <i class="fa fa-heart" id="heart" aria-hidden="true"></i>
+                            <i class="fa fa-coffee" id="coffee" aria-hidden="true"></i>
+                            <i class="fa fa-code" aria-hidden="true"></i></h1>
+                    </footer>
+                    
+                </header>
+            </div>
+
+            <div class="col-md-8 offset-md-1 justify-content-center" id="home">
+                <main>
+                    <h1 id="typing">I <i class="fas fa-heart" style="color: red"></i><span class="write" id="typing"></span></h1>
+                    <p><strong>Hi I'm Matthew Sadecki!</strong> I am currently an applied economics student at Queen's University. I have completed a Full Stack Web Development program at Univeristy of Toronto and have taken several computer science courses while studying at Queen's University.</p>
+                    
+                </main>
+                <script type="text/javascript">
+                    $(function(){
+                        $(".write").typed({
+                            strings: [" Full Stack Web Development", " Machine Learning"," Progressive Web Apps"," Coding in Python"," Data Analysis", " Tutoring Math, Physics, and Coding"],
+                            typeSpeed: 20,
+                            backSpeed: 20,
+                            cursorChar: '_',
+                            shuffle: true,
+                            loop: true,
+                        });
+                    });
+                </script>
+            </div>
+        </div>
+
+        <!-- Mobile Bio Ends-->
+      
+        <!-- Mobile Social Icons Begins-->
+        <div class="row" id="home_logos_row-mobile">
+
+            <a href="https://www.linkedin.com/in/matthew-sadecki-853807b5/" target="_blank"><i class="fab fa-linkedin fa-5x" aria-hidden="true" style="color: #1985bc;" id="home_logo_first"></i></a>
+            <a href="https://github.com/sadecki558?tab=repositories" target="_blank"><i class="fab fa-github fa-5x" aria-hidden="true" style="color: #171515" id="home_logo_child"></i></a>
+            <!--<a href="#"><i class="fas fa-envelope-square fa-5x" aria-hidden="true" style="color: #db4437" id="home_logo_child"></i></a>-->
+            <a href="resume.html"><h2 id="resume">Download My Resume</h2></a>
+
+        </div>
+        <!-- Mobile Social Icons Ends-->
+
+        <div class="row justify-content-center" id="desktop-only">
+                <div class="col-md-8 offset-md-3">
+                    <div class="hire">
+                        <h2>Check out my <br> 25+ completed projects deployed on github!</h2>
+                        <a href="https://github.com/sadecki558" class="btn-hire">My Github</a>
+                    </div>
+                </div>
+            </div>
+        
+        <!-- Mobile Github Begins-->
+        <div class="row" id="mobile-only">
+            <div class="col-md-8 offset-md-2">
                 <div class="hire">
                     <h2>Check out my <br> 25+ completed projects deployed on github!</h2>
                     <a href="https://github.com/sadecki558" class="btn-hire">My Github</a>
                 </div>
             </div>
         </div>
-        <div class="row" id="skills">
+        <!-- Mobile Github Ends-->
+
+        <!-- Mobile Skills Begins-->
+        <div class="row justify-content-center" id="skills-mobile-only">
+                <div class="card" id="info">
+                    <i class="fab fa-python fa-9x" style="margin-left: auto; margin-right: auto"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Python</h5>
+                        <p class="card-text">2 years of experience creating programs from scratch and by utilizing python libraries</p>
+                    </div>
+                </div>
+                <div class="card" id="info">
+                    <i class="fab fa-java fa-9x" style="margin-left: auto; margin-right: auto" ></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Java</h5>
+                        <p class="card-text">2 years of experience creating games and programs with java</h5>
+                    </div>
+                </div>
+        </div>
+        <div class="row justify-content-center" id="skills-mobile-only">
+            <div class="card" id="info">
+                <div class="row">
+                    <i class="fab fa-html5 fa-5x"  style="margin-left: auto; margin-right: auto"></i>
+                    <i class="fab fa-css3-alt fa-5x" style="margin-left: auto; margin-right: auto"></i>
+                    <i class="fab fa-js-square fa-5x" style="margin-left: auto; margin-right: auto"></i>
+                </div>
+                
+                <div class="card-body">
+                    <h5 class="card-title">Front End Web Design</h5>
+                    <p class="card-text">1 year of experience creating websites with HTML5, CSS3, Javascript, jQuery, Bootstrap, and Materialize</p>
+                </div>
+            </div>
+            <div class="card" id="info">
+                <div class="row">
+                    <i class="fas fa-database fa-5x" style="margin-left: auto; margin-right: auto"></i>
+                    <i class="icon-mysql fa-5x" style="margin-left: auto; margin-right: auto"></i>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Databases</h5>
+                    <p class="card-text">Experience working with MYSQL, MongoDB, and Firebase</p>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center" id="skills-mobile-only">
+            <div class="card" id="info">
+                    <div class="row">
+                        <i class="fab fa-react fa-5x" style="margin-left: auto; margin-right: auto" ></i>
+                        <i class="fab fa-node fa-5x" style="margin-left: auto; margin-right: auto"></i>
+                        <i class="icon-mongodb fa-5x" style="margin-left: auto; margin-right: auto"></i>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Full Stack Web Development (MERN)</h5>
+                        <p class="card-text">Experienced in creating web applications using MongoDB, ES6, React and Node.js</p>
+                    </div>
+                </div>
+                <div class="card" id="info">
+                    <i class="fas fa-robot fa-7x" style="margin-left: auto; margin-right: auto"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Data Analysis</h5>
+                        <p class="card-text">Experience applying various prediciton methods such as decision trees, random forests, support vector machines, neural networks in 
+                            addition to ensemble methods and clustering algorithms
+                        </p>
+                    </div>
+                </div>
+            </div>
+        <!-- Mobile Skills Ends-->         
+             
+               
+    <!-- Desktop Skills Begins-->
+
+        <div class="row justify-content-center" id="skills">
+
+        <!-- First row of skills begins -->
             <div class="col-md-8 offset-md-4">
                 <div class="row">
                     <div class="card" id="info">
                         <i class="fab fa-python fa-9x" style="margin-left: auto; margin-right: auto"></i>
                         <div class="card-body">
-                          <h5 class="card-title">Python</h5>
-                          <p class="card-text">2 years of experience creating programs from scratch and by utilizing python libraries</p>
+                            <h5 class="card-title">Python</h5>
+                            <p class="card-text">2 years of experience creating programs from scratch and by utilizing python libraries</p>
                         </div>
                     </div>
                     <div class="card" id="info">
                         <i class="fab fa-java fa-9x" style="margin-left: auto; margin-right: auto" ></i>
                         <div class="card-body">
-                          <h5 class="card-title">Java</h5>
-                          <p class="card-text">2 years of experience creating games and programs with java</h5>
+                            <h5 class="card-title">Java</h5>
+                            <p class="card-text">2 years of experience creating games and programs with java</p>
                         </div>
                     </div>
                     <div class="card" id="info">
@@ -148,48 +299,60 @@
                         </div>
                         
                         <div class="card-body">
-                          <h5 class="card-title">Front End Web Design</h5>
-                          <p class="card-text">1 year of experience creating websites with HTML5, CSS3, Javascript, jQuery, Bootstrap, and Materialize</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="card" id="info">
-                        <div class="row">
-                            <i class="fas fa-database fa-5x" style="margin-left: auto; margin-right: auto"></i>
-                            <i class="icon-mysql fa-5x" style="margin-left: auto; margin-right: auto"></i>
-                        </div>
-                        <div class="card-body">
-                          <h5 class="card-title">Databases</h5>
-                          <p class="card-text">Experience working with MYSQL, MongoDB, and Firebase</p>
-                        </div>
-                    </div>
-                    <div class="card" id="info">
-                        <div class="row">
-                            <i class="fab fa-react fa-5x" style="margin-left: auto; margin-right: auto" ></i>
-                            <i class="fab fa-node fa-5x" style="margin-left: auto; margin-right: auto"></i>
-                            <i class="icon-mongodb fa-5x" style="margin-left: auto; margin-right: auto"></i>
-                        </div>
-                        <div class="card-body">
-                          <h5 class="card-title">Full Stack Web Development (MERN)</h5>
-                          <p class="card-text">Experienced in creating web applications using MongoDB, ES6, React and Node.js</p>
-                        </div>
-                    </div>
-                    <div class="card" id="info">
-                        <i class="fas fa-robot fa-7x" style="margin-left: auto; margin-right: auto"></i>
-                        <div class="card-body">
-                          <h5 class="card-title">Data Analysis</h5>
-                          <p class="card-text">Experience applying various prediciton methods such as decision trees, random forests, support vector machines, neural networks in 
-                              addition to ensemble methods and clustering algorithms
-                          </p>
+                            <h5 class="card-title">Front End Web Design</h5>
+                            <p class="card-text">1 year of experience creating websites with HTML5, CSS3, Javascript, jQuery, Bootstrap, and Materialize</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+            <!-- First row of skills ends -->
 
-        <div class="row">
-            <div class="col-md-3 offset-md-4">
+            <!-- Second row of skills Begins -->
+            <div class="row justify-content-center" id="skills">
+                <div class="col-md-8 offset-md-4">
+                    <div class="row ">
+                        <div class="card" id="info">
+                            <div class="row">
+                                <i class="fas fa-database fa-5x" style="margin-left: auto; margin-right: auto"></i>
+                                <i class="icon-mysql fa-5x" style="margin-left: auto; margin-right: auto"></i>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Databases</h5>
+                                <p class="card-text">Experience working with MYSQL, MongoDB, and Firebase</p>
+                            </div>
+                        </div>
+                        <div class="card" id="info">
+                            <div class="row">
+                                <i class="fab fa-react fa-5x" style="margin-left: auto; margin-right: auto" ></i>
+                                <i class="fab fa-node fa-5x" style="margin-left: auto; margin-right: auto"></i>
+                                <i class="icon-mongodb fa-5x" style="margin-left: auto; margin-right: auto"></i>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Full Stack Web Development (MERN)</h5>
+                                <p class="card-text">Experienced in creating web applications using MongoDB, ES6, React and Node.js</p>
+                            </div>
+                        </div>
+                        <div class="card" id="info">
+                            <i class="fas fa-robot fa-7x" style="margin-left: auto; margin-right: auto"></i>
+                            <div class="card-body">
+                                <h5 class="card-title">Data Analysis</h5>
+                                <p class="card-text">Experience applying various prediciton methods such as decision trees, random forests, support vector machines, neural networks in 
+                                    addition to ensemble methods and clustering algorithms
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                    
+        <!-- Second row of skills ends -->
+
+    <!-- Desktop Skills Ends-->
+
+        <!-- Desktop Work Begins -->
+        <div class="row justify-content-center" id="desktop-only">
+            <div class="col-md-3 offset-md-3">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img class="activator" src="images/coffee.jpg" id="portfolio_image">
@@ -221,8 +384,8 @@
             </div>
                 
         </div>
-        <div class="row">
-            <div class="col-md-3 offset-md-4">
+        <div class="row justify-content-center" id="desktop-only">
+            <div class="col-md-3 offset-md-3">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img class="activator" src="images/coffee.jpg" id="portfolio_image">
@@ -253,5 +416,79 @@
                 </div>
             </div>
         </div>
+
+        <!-- Desktop Work Ends -->
+
+
+        <!-- Mobile Work Begins -->
+        <div class="row" id="mobile-only">
+                <div class="col-md-3 offset-md-4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="images/coffee.jpg" id="portfolio_image">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">tutorcollege.ca<i class="material-icons right"><i class="fab fa-html5 fa-1x"></i><i class="fab fa-css3-alt fa-1x"></i><i class="fab fa-js-square fa-1x"></i></i></span>
+                            <p><a href="tutorcollege.ca">Link to Tutor College</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">content<i class="material-icons right"><i class="fab fa-html5 fa-1x"></i><i class="fab fa-css3-alt fa-1x"></i><i class="fab fa-js-square fa-1x"></i></i></span>
+                            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="images/wearitwellplain.png" id="portfolio_image">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Rick & Morty Clicky Game<i class="material-icons right"><i class="icon-mysql fa-1x"></i><i class="fab fa-node fa-1x"></i><i class="fas fa-database fa-1x"></i></i></span>
+                            <p><a href="https://sadecki558.github.io/Clicky_Game/">Link to Clicky Game</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                        </div>
+                    </div>
+                </div>
+                    
+            </div>
+            <div class="row" id="mobile-only">
+                <div class="col-md-3 offset-md-4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="images/coffee.jpg" id="portfolio_image">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">GifTastic<i class="material-icons right">more_vert</i></span>
+                            <p><a href="https://sadecki558.github.io/GifTastic/">Link to GifTastic</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="images/stocks.jpg" id="portfolio_image">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+                            <p><a href="#">This is a link</a></p>
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+                            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        <!-- Mobile Work Ends -->
     </body>
 </html>
