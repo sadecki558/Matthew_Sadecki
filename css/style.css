@@ -203,6 +203,11 @@ main{
     display: none;
 }
 
+#home-mobile{
+    display: none;
+}
+
+/* Mobile stuff ends */
 /* 
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
@@ -210,7 +215,15 @@ main{
 
 @media (min-width: 1281px) {
   
-    /*CSS*/
+    #home-mobile{
+        display: none;
+    }
+    #mobile-only{
+        display: none;
+    }
+    #skills-mobile-only{
+        display: none;
+    }
     
   }
   
