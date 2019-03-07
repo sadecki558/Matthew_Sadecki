@@ -230,7 +230,7 @@ footer h1{
     ##Screen = B/w 1025px to 1280px
   */
   
-  @media screen and (min-width: 1025px) and (max-width: 1280px) {
+  @media screen and (max-width: 1280px) {
     
     #desktop-only{
         display: none;
