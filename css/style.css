@@ -226,7 +226,27 @@ main{
   
   @media (min-width: 1025px) and (max-width: 1280px) {
     
-    /*CSS*/
+    #mobile-nav{
+        display: none;
+    }
+    #mobile-profile{
+        display: none;
+    }
+    #home_logos_row-mobile{
+        display: none;
+    }
+    #mobile-only{
+        display: none;
+    }
+    
+    #skills-mobile-only{
+        display: none;
+    }
+    
+    #home-mobile{
+        display: none;
+    }
+    
     
   }
   
