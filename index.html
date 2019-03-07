@@ -15,12 +15,12 @@
         <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">        
         <link rel="stylesheet" href="css/font-mfizz-2.4.1/font-mfizz.css">
-        <link rel="text/javascript" src="js/logic.js">
         <!-- Compiled and minified CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
         <!-- Compiled and minified JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <link rel="text/javascript" src="js/logic.js">
         <style type="text/css">
 		    .write{
 			    font-size: 22px;
@@ -34,7 +34,34 @@
 
     <body>
         <div class="row">
+            <nav id="mobile-nav">
+                <ul id="slide-out" class="sidenav">
+                    <li><div class="user-view">
+                    <div class="background">
+                        <img src="../../public/images/background2.jpg">
+                    </div>
+                        <a href="#!user"><img class="circle" src="../../public/images/profile1.jpg"></a>
+                        <a href="#!name"><span class="white-text name">John Doe</span></a>
+                        <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
+                    </div>
+                    </li>
+                    <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+                    <li><a href="#!">Second Link</a></li>
+                    <li><div class="divider"></div></li>
+                    <li><a class="subheader">Subheader</a></li>
+                    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+                </ul>
+                <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            </nav>
+            <script>
+                    $(document).ready(function(){
+                    $('.sidenav').sidenav();
+        
+                    })
+            </script>
+                
             <div class="col-md-2 offset-md-1">
+                <img src="images/profilepic.jpg" alt="Matthew Sadecki" id="mobile-profile">
                 <header id="vertical_header">
                     <img src="images/profilepic.jpg" alt="Matthew Sadecki" id="profilepic">
                     <h1 id="logo">Matthew Sadecki</h1>
@@ -56,27 +83,10 @@
                 </header>
             </div>
 
-            <div class="col-md-2 offset-md-1" id="mobile-nav">
-                <nav> <!-- navbar content here  --> </nav>
-
-                <ul id="slide-out" class="sidenav">
-                  <li><div class="user-view">
-                    <div class="background">
-                      <img src="images/office.jpg">
-                    </div>
-                    <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
-                    <a href="#name"><span class="white-text name">John Doe</span></a>
-                    <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
-                  </div></li>
-                  <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
-                  <li><a href="#!">Second Link</a></li>
-                  <li><div class="divider"></div></li>
-                  <li><a class="subheader">Subheader</a></li>
-                  <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
-                </ul>
-                <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            </div>
-
+            
+                
+            
+            
             <div class="col-md-8 offset-md-1" id="home">
                 <main>
                     <h1 id="typing">I <i class="fas fa-heart" style="color: red"></i><span class="write" id="typing"></span></h1>

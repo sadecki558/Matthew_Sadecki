@@ -121,9 +121,6 @@ footer h1{
     padding: 1%;
     
 }
-#mobile-nav{
-    display: none;
-}
 
 #heart{
     color: red;
@@ -173,6 +170,14 @@ main{
     width: 20rem;
 }
 
+/*Mobile Stuff*/
+#mobile-nav{
+    display: none;
+}
+#mobile-profile{
+    display: none;
+}
+
 
 /* 
   ##Device = Desktops
@@ -202,20 +207,13 @@ main{
   */
   
   @media (min-width: 768px) and (max-width: 1024px) {
-    #home{
-      margin-left: 50%;
-    }
+    
 
     #vertical_header{
        display: none;
     }
     
-    #skills{
-        margin-left: 30%;
-        margin-right: 0px;
-        
-    }
-
+    
     #info{
         width: 30rem;
         text-align: center;
@@ -225,9 +223,15 @@ main{
     #mobile-nav{
         display: inline;
     }
-    
+    #desktop-only{
+        display: none;
+    }
+    #mobile-profile{
+        display: inline;
+        height: 15vh;
+        width: 15vh;
 
-  
+    }
     
   }
   
