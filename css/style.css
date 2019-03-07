@@ -247,10 +247,10 @@ footer h1{
   @media (max-width: 1024px) {
     
 
-    #vertical_header{
-       display: none;
+  
+    #home-mobile{
+        display: inline;
     }
-    
     
     #info{
         width: 30rem;
@@ -281,7 +281,7 @@ footer h1{
         display: inline;
     }
     #mobile-only{
-        display: block;
+        display: inline;
     }
     
   }
