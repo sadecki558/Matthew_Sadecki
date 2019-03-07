@@ -283,6 +283,10 @@ footer h1{
     #mobile-only{
         display: inline;
     }
+
+    #vertical-header{
+        display: none;
+    }
     
   }
   
