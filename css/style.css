@@ -312,7 +312,7 @@ footer h1{
     #mobile-nav{
         display: inline;
     }
-    #desktop-only{
+    .desktop-only{
         display: none;
     }
     #mobile-profile{
