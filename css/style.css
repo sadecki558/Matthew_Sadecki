@@ -294,8 +294,43 @@ footer h1{
   @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     
   
+    #home-mobile{
+        display: inline;
+    }
+    
+    #info{
+        width: 30rem;
+        text-align: center;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    #mobile-nav{
+        display: inline;
+    }
     #desktop-only{
         display: none;
     }
+    #mobile-profile{
+        display: inline;
+        height: 20vh;
+        width: 20vh;
+        margin-top: 125%;
+        border-radius: 50%;
+
+
+    }
+    #skills{
+        margin: auto;
+    }
+    #home_logos_row-mobile{
+        display: inline;
+    }
+    #mobile-only{
+        display: inline;
+    }
+    
+  
+  
     
   }
