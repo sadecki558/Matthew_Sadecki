@@ -215,15 +215,7 @@ main{
 
 @media (min-width: 1281px) {
   
-    #home-mobile{
-        display: none;
-    }
-    #mobile-only{
-        display: none;
-    }
-    #skills-mobile-only{
-        display: none;
-    }
+   
     
   }
   
