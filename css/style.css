@@ -12,6 +12,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Playfair Display", Georgia, serif;
     font-weight: 400;
     margin: 0 0 30px 0; 
+
 }
 
 p {
@@ -55,11 +56,21 @@ p {
 }
 
 /* End of short bio */
-#position{
+#position1{
+    display: block;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 0px;
+    text-align: center;
+}
+#position2{
     display: block;
     margin-bottom: 2em;
-    font-size: 12px;
+    font-size: 20px;
     text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
 }
 
 
@@ -67,8 +78,9 @@ p {
 #logo{
     text-align: center;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 25px;
     margin-bottom: .5em;
+    margin-top: 5%;
     display: block;
     width: 100%; 
 }
@@ -128,6 +140,7 @@ p {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    font-size: 1.5em;
 }
 
 main{
@@ -200,7 +213,7 @@ main{
 }
 
 footer{
-    font-size: 15px;
+    font-size: 1.25em;
     text-align: center;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
@@ -310,12 +323,15 @@ footer h1{
         border: 3px;
         padding: 5px;
         margin-top: 0px;
-        margin-bottom: 10%;
+        margin-bottom: 20%;
         border-color: #35e5c5;
         border-style: solid;
         background: #35e5c5;
         color: white;
         border-radius: 10px;
+    }
+    .hire{
+        margin-bottom: 15%;
     }
      
     
