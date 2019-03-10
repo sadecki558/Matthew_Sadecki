@@ -25,7 +25,6 @@ p {
 /* End of Regular CSS Stuff */
 
 
-
 /* Beginning of short bio */
 
 #home{
@@ -33,7 +32,7 @@ p {
     margin-left: auto;
     margin-top: 10%;
     margin-bottom: 20%;
-    z-index: 1;
+    
     
 }
 
@@ -149,7 +148,9 @@ main{
     width: 20rem;
 }
 
-
+.desktop-only{
+    display: none;
+}
 
 /* Mobile stuff ends */
 
@@ -180,6 +181,12 @@ main{
     
     #home-mobile{
         display: none;
+    }
+    .desktop-only{
+        display: inline;
+    }
+    #vertical-header{
+        display: inline;
     }
 
     /* Beginning of Vertical Header */
@@ -232,7 +239,7 @@ footer h1{
   
   @media screen and (max-width: 1280px) {
     
-    #desktop-only{
+    .desktop-only{
         display: none;
     }
     
@@ -261,24 +268,31 @@ footer h1{
 
     #mobile-nav{
         display: inline;
+        position: fixed;
+        z-index: 2;
     }
     #desktop-only{
         display: none;
     }
     #mobile-profile{
-        display: inline;
+        display: block;
         height: 20vh;
         width: 20vh;
-        margin-top: 125%;
+        margin-top: 20%;
+        margin-left: auto;
+        margin-right: auto;
         border-radius: 50%;
+        z-index: 1;        
 
 
     }
     #skills{
         margin: auto;
+        display: none;
     }
     #home_logos_row-mobile{
         display: inline;
+        text-align: center;
     }
     #mobile-only{
         display: inline;
@@ -287,6 +301,23 @@ footer h1{
     #vertical-header{
         display: none;
     }
+    #desktop-stuff{
+        display: none;
+    }
+    #resume{
+        text-align: center;
+        font-size: 200%;
+        border: 3px;
+        padding: 5px;
+        margin-top: 0px;
+        margin-bottom: 10%;
+        border-color: #35e5c5;
+        border-style: solid;
+        background: #35e5c5;
+        color: white;
+        border-radius: 10px;
+    }
+     
     
   }
   
@@ -311,6 +342,8 @@ footer h1{
 
     #mobile-nav{
         display: inline;
+        position: fixed;
+        z-index: 2;
     }
     .desktop-only{
         display: none;
@@ -319,22 +352,27 @@ footer h1{
         display: inline;
         height: 20vh;
         width: 20vh;
-        margin-top: 125%;
+        margin-top: 20%;
         border-radius: 50%;
-
-
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 1;
     }
     #skills{
         margin: auto;
+        display: none;
     }
     #home_logos_row-mobile{
         display: inline;
+        text-align: center;
     }
     #mobile-only{
         display: inline;
     }
     
-  
+    #desktop-stuff{
+        display: none;
+    }
   
     
   }
