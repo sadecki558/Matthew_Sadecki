@@ -107,15 +107,23 @@ p {
 .hire{
     background-color: #f9bf40;
     padding: 30px;
+    text-align: center;
 
 }
 
 .btn-hire{
-    border: 1px;
+    border: 2px;
     border-color: black;
     border-style: solid;
     padding: 1%;
+    color: black;
+    font-size: 1.5em;
+    font-weight: 450;
+
     
+}
+a.btn-hire:hover{
+    text-decoration: none;
 }
 
 #heart{
