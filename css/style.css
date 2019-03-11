@@ -23,6 +23,9 @@ p {
     color: #000;
 }
 
+nav{
+    background-color: darkgrey;
+}
 /* End of Regular CSS Stuff */
 
 
@@ -92,9 +95,9 @@ p {
     padding: 10px;
     margin-top: 0.5%;
     margin-bottom: auto;
-    border-color: #35e5c5;
+    border-color: green;
     border-style: solid;
-    background: #35e5c5;
+    background: green;
     color: white;
     border-radius: 10px;
 }
@@ -160,7 +163,6 @@ main{
 #skills{
     margin-top: 3%;
     margin-left:3%;
-    margin-bottom:5%;
 }
 
 
@@ -332,9 +334,7 @@ footer h1{
         padding: 5px;
         margin-top: 0px;
         margin-bottom: 20%;
-        border-color: #35e5c5;
         border-style: solid;
-        background: #35e5c5;
         color: white;
         border-radius: 10px;
     }
