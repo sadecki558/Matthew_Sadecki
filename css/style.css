@@ -398,7 +398,7 @@ main{
     ##Device = Tablets, Ipads (portrait)
     ##Screen = B/w 768px to 1024px
   */
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: 1024px){
     #desktop-only-work{
         display: none;
     }
@@ -418,6 +418,7 @@ main{
         display: inline;
         position: fixed;
         z-index: 2;
+      
     }
     #desktop-only{
         display: none;
@@ -439,6 +440,9 @@ main{
     #home_logos_row-mobile{
         display: inline;
         text-align: center;
+    }
+    #home_logo_first{
+        margin-right: none;
     }
     #mobile-only{
         display: inline;
