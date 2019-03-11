@@ -36,8 +36,6 @@ nav{
     margin-left: auto;
     margin-top: 10%;
     margin-bottom: 20%;
-   
-    
 }
 
 #home_logo_first{
@@ -175,6 +173,10 @@ main{
 #mobile-only-work{
     display: none;
 }
+#skills-laptop{
+    display: none;
+}
+
 
 /* Mobile stuff ends */
 
@@ -186,6 +188,9 @@ main{
 @media screen and (max-width: 1575px){
     #mobile-nav{
         display: none;
+    }
+    .hire{
+        margin-left: 8.25%;
     }
     #mobile-profile{
         display: none;
@@ -211,7 +216,7 @@ main{
         display: inline;
     }
     #home{
-        margin-left: 7%;
+        margin-left: 8.25%;
     }
 
     /* Beginning of Vertical Header */
@@ -256,7 +261,16 @@ main{
     #mobile-only-work{
         display: none;
     }
-
+    #skills-laptop{
+        display: inline;
+        
+    }
+    #desktop-only-work{
+        margin-left: 8.25%;
+    }
+    #skills{
+        display: none;
+    }
 }
 
 @media screen and (min-width: 1576px) {
