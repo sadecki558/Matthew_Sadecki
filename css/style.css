@@ -36,7 +36,7 @@ nav{
     margin-left: auto;
     margin-top: 10%;
     margin-bottom: 20%;
-    
+   
     
 }
 
@@ -140,8 +140,8 @@ a.btn-hire:hover{
 
 #profilepic{
     display: block;
-    height: 25h;
-    width: 25vh;
+    height: 12em;
+    width: 12em;
     border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
@@ -183,8 +183,83 @@ main{
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
 */
+@media screen and (max-width: 1575px){
+    #mobile-nav{
+        display: none;
+    }
+    #mobile-profile{
+        display: none;
+    }
+    #home_logos_row-mobile{
+        display: none;
+    }
+    #mobile-only{
+        display: none;
+    }
+    
+    #skills-mobile-only{
+        display: none;
+    }
+    
+    #home-mobile{
+        display: none;
+    }
+    .desktop-only{
+        display: inline;
+    }
+    #vertical-header{
+        display: inline;
+    }
+    #home{
+        margin-left: 7%;
+    }
 
-@media screen and (min-width: 1281px) {
+    /* Beginning of Vertical Header */
+
+    #portfolio_image{
+        height: 300px;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2%;
+    }
+
+    footer{
+        font-size: 1.25em;
+        text-align: center;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.5);
+        padding: 0 20px;
+        width: 100%; 
+    }
+
+    footer h1{
+        font-size: 15px;
+        text-align: center;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.5);
+        padding: 0 20px;
+        width: 100%; 
+    }
+
+    #vertical_header{
+        height: 100%;
+        background-color:#f2f3f7;
+        padding-top: 45px;
+        padding-bottom: 40px;
+        padding-left: 20px;
+        padding-right:20px;
+        position: fixed;
+        z-index: 1;
+       
+    }
+    #mobile-only-work{
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 1576px) {
     
     #mobile-nav{
         display: none;
@@ -215,45 +290,45 @@ main{
 
     /* Beginning of Vertical Header */
 
-#portfolio_image{
-    height: 300px;
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2%;
-}
+    #portfolio_image{
+        height: 300px;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2%;
+    }
 
-footer{
-    font-size: 1.25em;
-    text-align: center;
-    font-weight: 400;
-    color: rgba(0, 0, 0, 0.5);
-    padding: 0 20px;
-    width: 100%; 
-}
+    footer{
+        font-size: 1.25em;
+        text-align: center;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.5);
+        padding: 0 20px;
+        width: 100%; 
+    }
 
-footer h1{
-    font-size: 15px;
-    text-align: center;
-    font-weight: 400;
-    color: rgba(0, 0, 0, 0.5);
-    padding: 0 20px;
-    width: 100%; 
-}
+    footer h1{
+        font-size: 15px;
+        text-align: center;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.5);
+        padding: 0 20px;
+        width: 100%; 
+    }
 
-#vertical_header{
-    height: 100%;
-    background-color:#f2f3f7;
-    padding-top: 45px;
-    padding-bottom: 40px;
-    padding-left: 20px;
-    padding-right:20px;
-    position: fixed;
-    z-index: 1;
-}
-#mobile-only-work{
-    display: none;
-}
+    #vertical_header{
+        height: 100%;
+        background-color:#f2f3f7;
+        padding-top: 45px;
+        padding-bottom: 40px;
+        padding-left: 20px;
+        padding-right:20px;
+        position: fixed;
+        z-index: 1;
+    }
+    #mobile-only-work{
+        display: none;
+    }
 
 
 /* End of Vertical Header */
@@ -264,23 +339,42 @@ footer h1{
     ##Device = Laptops, Desktops
     ##Screen = B/w 1025px to 1280px
   */
-  @media screen and (max-width: 1440px){
-    #home{
-        margin-left: 40%;
-    }
-   
-  }
 
-  @media screen and (max-width: 1280px) {
+ @media screen and (max-width: 1280px) {
+    #profilepic{
+        display: block;
+        height: 15h;
+        width: 15vh;
+        border-radius: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #mobile-nav{
+        display: none;
+    }
+    #mobile-profile{
+        display: none;
+    }
+    #home_logos_row-mobile{
+        display: none;
+    }
+    #mobile-only{
+        display: none;
+    }
     
+    
+    #skills-mobile-only{
+        display: none;
+    }
+    
+    #home-mobile{
+        display: none;
+    }
     .desktop-only{
-        display: none;
+        display: inline;
     }
-    #desktop-only-work{
-        display: none;
-    }
-    #mobile-only-work{
-        display: none;
+    #vertical-header{
+        display: inline;
     }
     
   }
@@ -289,14 +383,82 @@ footer h1{
     ##Device = Tablets, Ipads (portrait)
     ##Screen = B/w 768px to 1024px
   */
+  @media screen and (max-width: 768px){
+    #desktop-only-work{
+        display: none;
+    }
   
-  @media screen and (max-width: 768px) {
+    #home-mobile{
+        display: inline;
+    }
+    
+    #info{
+        width: 30rem;
+        text-align: center;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    #mobile-nav{
+        display: inline;
+        position: fixed;
+        z-index: 2;
+    }
+    #desktop-only{
+        display: none;
+    }
+    #mobile-profile{
+        display: inline;
+        height: 20vh;
+        width: 20vh;
+        margin-top: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50%;
+        z-index: 1;        
+    }
+    #skills{
+        margin: auto;
+        display: none;
+    }
+    #home_logos_row-mobile{
+        display: inline;
+        text-align: center;
+    }
+    #mobile-only{
+        display: inline;
+    }
+    #mobile-only-work{
+        display: inline;
+    }
+
+    #vertical-header{
+        display: none;
+    }
+    #desktop-stuff{
+        display: none;
+    }
+    #resume{
+        text-align: center;
+        font-size: 200%;
+        border: 3px;
+        padding: 5px;
+        margin-top: 0px;
+        margin-bottom: 20%;
+        border-style: solid;
+        color: white;
+        border-radius: 10px;
+    }
+    .hire{
+        margin-bottom: 15%;
+    }
+  }
+  
+  @media screen and (max-width: 376px) {
     
     #desktop-only-work{
         display: none;
     }
-    
-
   
     #home-mobile{
         display: inline;
