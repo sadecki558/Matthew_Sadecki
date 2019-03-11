@@ -172,7 +172,7 @@ main{
     width: 20rem;
 }
 
-.desktop-only{
+#mobile-only-work{
     display: none;
 }
 
@@ -282,6 +282,7 @@ footer h1{
   */
   
   @media screen and (max-width: 768px) {
+    
     #desktop-only-work{
         display: none;
     }
