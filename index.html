@@ -46,11 +46,11 @@
                     <img src="images/profilepic.jpg" alt="Matthew Sadecki" id="profilepic">
                     <h1 id="logo">Matthew Sadecki</h1>
                     <h1 id="position1">Full Stack Web Developer</h1>
-                    <h1 id="position2"><i class="fas fa-map-marked-alt" style="margin-right: 2%;"></i>in Toronto</h1>
+                    <h1 id="position2"><i class="fas fa-map-marked-alt" style="margin-right: 2%;"></i>Toronto, Ontario</h1>
                     <ul>
-                        <li><a href="#" id="navlinks">Home</a></li>
-                        <li><a href="#" id="navlinks" >Skills</a></li>
-                        <li><a href="#" id="navlinks">Portfolio</a></li>
+                        <li><a href="#home" id="navlinks">Home</a></li>
+                        <li><a href="#skills" id="navlinks" >Skills</a></li>
+                        <li><a href="#desktop-only-work" id="navlinks">Portfolio</a></li>
                         <!--<li><a href="#" id="navlinks">Contact</a></li>-->
                     </ul>
                     <footer>
@@ -83,7 +83,7 @@
                 <script type="text/javascript">
                     $(function(){
                         $(".write").typed({
-                            strings: [" Full Stack Web Development", " Machine Learning"," Progressive Web Apps"," Coding in Python"," Data Analysis", " Tutoring Math, Physics, and CompSci", "Applied Econometrics", "Microeconomics"],
+                            strings: [" Full Stack Web Development", " Machine Learning"," Progressive Web Apps"," Coding in Python"," Data Analysis", " Tutoring Math, Physics, and CompSci", " Applied Econometrics", " Microeconomics"],
                             typeSpeed: 20,
                             backSpeed: 20,
                             cursorChar: '_',
@@ -110,14 +110,12 @@
                     </div>
                         <a href="#!user"><img class="circle" src="images/profilepic.jpg"></a>
                         <a href="#!name"><span class="black-text name">Matthew Sadecki</span></a>
-                        <a href="#!email"><span class="black-text email">matthewsadecki@gmail.com</span></a>
+                        
                     </div>
                     </li>
-                    <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
-                    <li><a href="#!">Second Link</a></li>
-                    <li><div class="divider"></div></li>
-                    <li><a class="subheader">Subheader</a></li>
-                    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+                    <li><a class="sidenav-close" href="#mobile-profile">Bio</a></li>
+                    <li><a class="sidenav-close" href="#skills-mobile-only">Skills</a></li>
+                    <li><a class="sidenav-close" href="#mobile-only-work" >Projects</a></li>
                 </ul>
                 <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons"><i class="fas fa-bars"></i></i></a>
             
@@ -146,7 +144,7 @@
                 <script type="text/javascript">
                     $(function(){
                         $(".write").typed({
-                            strings: [" Full Stack Web Development", " Machine Learning"," Progressive Web Apps"," Coding in Python"," Data Analysis", " Tutoring Math, Physics, and CompSci", "Applied Econometrics", "Microeconomics"],
+                            strings: [" Full Stack Web Development", " Machine Learning"," Progressive Web Apps"," Coding in Python"," Data Analysis", " Tutoring Math, Physics, and CompSci", " Applied Econometrics", " Microeconomics"],
                             typeSpeed: 50,
                             backSpeed: 50,
                             cursorChar: '_',
@@ -232,8 +230,8 @@
             </div>
             <div class="card" id="info">
                 <div class="row">
-                    <i class="fas fa-database fa-5x" style="margin-left: auto; margin-right: auto"></i>
-                    <i class="icon-mysql fa-5x" style="margin-left: auto; margin-right: auto"></i>
+                    <i class="fas fa-database fa-5x" style="margin-left: auto; margin-right: auto; margin-top: 5%;"></i>
+                    <i class="icon-mysql fa-5x" style="margin-left: auto; margin-right: auto; margin-top: -13%; padding-left: 5%;"></i>
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">Databases</h5>
@@ -245,8 +243,8 @@
             <div class="card" id="info">
                     <div class="row">
                         <i class="fab fa-react fa-5x" style="margin-left: auto; margin-right: auto" ></i>
-                        <i class="fab fa-node fa-5x" style="margin-left: auto; margin-right: auto"></i>
-                        <i class="icon-mongodb fa-5x" style="margin-left: auto; margin-right: auto"></i>
+                        <i class="fab fa-node fa-5x" style="margin-left: auto; margin-right: auto; padding-left: 5%; padding-right: 2%;"></i>
+                        <i class="icon-mongodb fa-5x" style="margin-left: auto; margin-right: auto; margin-top: -10%;"></i>
                     </div>
                     <div class="card-body">
                         <h5 class="card-title">Full Stack Web Development (MERN)</h5>
@@ -347,7 +345,7 @@
     <!-- Desktop Skills Ends-->
 
         <!-- Desktop Work Begins -->
-        <div class="row justify-content-center" id="desktop-only">
+        <div class="row justify-content-center" id="desktop-only-work" style="margin-right: 4.5%;">
             <div class="col-md-3 offset-md-3">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
@@ -355,11 +353,11 @@
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Tutor College<i class="material-icons right"><i class="fab fa-wordpress"></i></i></span>
-                        <p><a href="tutorcollege.ca">Link to Tutor College</a></p>
+                        <p><a href="https://tutorcollege.ca">Link to Tutor College</a></p>
                     </div>
                     <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">content<i class="material-icons right"><i class="fab fa-html5 fa-1x"></i><i class="fab fa-css3-alt fa-1x"></i><i class="fab fa-js-square fa-1x"></i></i></span>
-                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                        <span class="card-title grey-text text-darken-4"><i class="fab fa-wordpress"></i><i class="material-icons right">close</i></span>
+                        <p>Developed website using wordpress for my tutoring business.</p>
                     </div>
                 </div>
             </div>
@@ -373,41 +371,43 @@
                         <p><a href="https://sadecki558.github.io/Clicky_Game/">Link to Clicky Game</a></p>
                     </div>
                     <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                        <span class="card-title grey-text text-darken-4"><i class="fab fa-react"></i><i class="material-icons right">close</i></span>
+                        <p>Developed Rick & Morty themed react game to apply my knowledge of react.js</p>
                     </div>
                 </div>
             </div>
                 
         </div>
-        <div class="row justify-content-center" id="desktop-only">
+        <div class="row justify-content-center" id="desktop-only-work" style="margin-right: 4.5%;">
             <div class="col-md-3 offset-md-3">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <iframe src="https://giphy.com/embed/citBl9yPwnUOs" width="400" height="300" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                        <iframe src="images/giphy.gif" width="500" height="300" style="margin-left: 2.5%; margin-top: 2%; margin-bottom: -2%;"></iframe>
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">GifTastic<i class="material-icons right"><i class="fab fa-html5 fa-1x"></i><i class="fab fa-css3-alt fa-1x"></i><i class="fab fa-js-square fa-1x"></i></i></span>
                         <p><a href="https://sadecki558.github.io/GifTastic/">Link to GifTastic</a></p>
                     </div>
                     <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                        <span class="card-title grey-text text-darken-4"><i class="fab fa-html5 fa-1x"></i><i class="fab fa-css3-alt fa-1x"></i><i class="fab fa-js-square fa-1x"></i><i class="material-icons right">close</i></span>
+                        <p>Developed a web app using the giphy api to apply my knowledge of html, css, javascript, and apis.</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="images/stocks.jpg" id="portfolio_image">
+                        <img class="activator" src="images/data.png" id="portfolio_image">
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-                        <p><a href="#">This is a link</a></p>
+                        <span class="card-title activator grey-text text-darken-4">Kaggle Data Analysis Project<i class="material-icons right"><i class="fas fa-robot"></i></i></span>
+                        <p><a href="data/report.pdf">Download Report</a></p>
                     </div>
                     <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                        <span class="card-title grey-text text-darken-4"><i class="fas fa-robot"></i><i class="material-icons right">close</i></span>
+                        <p>Applied various prediciton methods such as decision trees, random forests, support vector machines, neural networks, and clustering algorithms to
+                            figure out why customers were leaving the internet service provider. 
+                        </p>
                     </div>
                 </div>
             </div>
@@ -417,7 +417,7 @@
 
 
         <!-- Mobile Work Begins -->
-        <div class="row" id="mobile-only">
+        <div class="row" id="mobile-only-work">
                 <div class="col-md-3 offset-md-4">
                     <div class="card">
                         <div class="card-image waves-effect waves-block waves-light">
@@ -428,8 +428,8 @@
                             <p><a href="https://tutorcollege.ca">Link to Tutor College</a></p>
                         </div>
                         <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">content<i class="material-icons right"><i class="fab fa-html5 fa-1x"></i><i class="fab fa-css3-alt fa-1x"></i><i class="fab fa-js-square fa-1x"></i></i></span>
-                            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                            <span class="card-title grey-text text-darken-4"><i class="fab fa-wordpress"></i><i class="material-icons right">Close</i></span>
+                            <p>Developed website using wordpress for my tutoring business.</p>
                         </div>
                     </div>
                 </div>
@@ -443,41 +443,42 @@
                             <p><a href="https://sadecki558.github.io/Clicky_Game/">Link to Clicky Game</a></p>
                         </div>
                         <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                            <span class="card-title grey-text text-darken-4"><i class="fab fa-react"></i><i class="material-icons right">close</i></span>
+                            <p>Developed Rick & Morty themed react game to apply my knowledge of react.js</p>
                         </div>
                     </div>
                 </div>
                     
             </div>
-            <div class="row" id="mobile-only">
+            <div class="row" id="mobile-only-work">
                 <div class="col-md-3 offset-md-4">
                     <div class="card">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <iframe src="https://giphy.com/embed/citBl9yPwnUOs" width="400" height="300" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                            <iframe src="images/giphy.gif" width="400" height="300" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
                         </div>
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4">GifTastic<i class="material-icons right"><i class="fab fa-html5 fa-1x"></i><i class="fab fa-css3-alt fa-1x"></i><i class="fab fa-js-square fa-1x"></i></i></span>
                             <p><a href="https://sadecki558.github.io/GifTastic/">Link to GifTastic</a></p>
                         </div>
                         <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                            <span class="card-title grey-text text-darken-4"><i class="fab fa-html5 fa-1x"></i><i class="fab fa-css3-alt fa-1x"></i><i class="fab fa-js-square fa-1x"></i><i class="material-icons right">close</i></span>
+                            <p>Developed a web app using the giphy api to apply my knowledge of html, css, javascript, and apis.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="card">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="images/stocks.jpg" id="portfolio_image">
+                            <img class="activator" src="images/data.png" id="portfolio_image">
                         </div>
                         <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-                            <p><a href="#">This is a link</a></p>
+                            <span class="card-title activator grey-text text-darken-4">Kaggle Data Analysis Project<i class="material-icons right"><i class="fas fa-robot"></i></i></span>
+                            <p><a href="data/report.pdf">Download Report</a></p>
                         </div>
                         <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                            <span class="card-title grey-text text-darken-4"><i class="fas fa-robot"></i><i class="material-icons right">close</i></span>
+                            <p>Applied various prediciton methods such as decision trees, random forests, support vector machines, neural networks, and clustering algorithms to
+                                figure out why customers were leaving the internet service provider.</p>
                         </div>
                     </div>
                 </div>

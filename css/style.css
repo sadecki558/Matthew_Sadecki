@@ -70,7 +70,8 @@ nav{
 #position2{
     display: block;
     margin-bottom: 2em;
-    font-size: 20px;
+    margin-top: 1em;
+    font-size: 18px;
     text-transform: uppercase;
     font-weight: 500;
     text-align: center;
@@ -250,6 +251,10 @@ footer h1{
     position: fixed;
     z-index: 1;
 }
+#mobile-only-work{
+    display: none;
+}
+
 
 /* End of Vertical Header */
     
@@ -265,7 +270,9 @@ footer h1{
     .desktop-only{
         display: none;
     }
-    
+    #desktop-only-work{
+        display: none;
+    }
     
   }
   
@@ -275,6 +282,9 @@ footer h1{
   */
   
   @media screen and (max-width: 768px) {
+    #desktop-only-work{
+        display: none;
+    }
     
 
   
@@ -320,6 +330,9 @@ footer h1{
     #mobile-only{
         display: inline;
     }
+    #mobile-only-work{
+        display: inline;
+    }
 
     #vertical-header{
         display: none;
@@ -351,11 +364,18 @@ footer h1{
   */
   
   @media screen and (max-width: 768px and orientation landscape) {
+    #desktop-only-work{
+        display: none;
+    }
     
   
     #home-mobile{
         display: inline;
     }
+    #mobile-only-work{
+        display: inline;
+    }
+
     
     #info{
         width: 30rem;
