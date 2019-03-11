@@ -273,6 +273,9 @@ footer h1{
     #desktop-only-work{
         display: none;
     }
+    #mobile-only-work{
+        display: none;
+    }
     
   }
   
