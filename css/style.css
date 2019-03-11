@@ -177,11 +177,6 @@ main{
     display: none;
 }
 
-#laptop-only-work{
-    display: none;
-}
-
-
 /* Mobile stuff ends */
 
 
@@ -270,14 +265,12 @@ main{
         
     }
    
-    #laptop-only-work{
-        display: inline;
-        
-    }
+  
 
     #skills{
         display: none;
     }
+   
 }
 
 @media screen and (min-width: 1576px) {
