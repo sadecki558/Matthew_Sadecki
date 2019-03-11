@@ -264,11 +264,11 @@ main{
         display: inline;
         
     }
-   
-  
-
     #skills{
         display: none;
+    }
+    #desktop-only-work{
+        margin-left: 8.25%;
     }
    
 }
