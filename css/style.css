@@ -264,7 +264,12 @@ footer h1{
     ##Device = Laptops, Desktops
     ##Screen = B/w 1025px to 1280px
   */
-  
+  @media screen and (max-width: 1440px){
+    #home{
+        margin-left: 5%;
+    }
+  }
+
   @media screen and (max-width: 1280px) {
     
     .desktop-only{
@@ -320,8 +325,6 @@ footer h1{
         margin-right: auto;
         border-radius: 50%;
         z-index: 1;        
-
-
     }
     #skills{
         margin: auto;
