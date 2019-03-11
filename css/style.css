@@ -177,6 +177,10 @@ main{
     display: none;
 }
 
+#laptop-only-work{
+    display: none;
+}
+
 
 /* Mobile stuff ends */
 
@@ -265,9 +269,12 @@ main{
         display: inline;
         
     }
-    #desktop-only-work{
-        margin-left: 8.25%;
+   
+    #laptop-only-work{
+        display: inline;
+        
     }
+
     #skills{
         display: none;
     }
@@ -343,6 +350,7 @@ main{
     #mobile-only-work{
         display: none;
     }
+    
 
 
 /* End of Vertical Header */
