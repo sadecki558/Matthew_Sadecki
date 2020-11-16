@@ -291,7 +291,7 @@ main{
         margin-left: 8.25%;
     }
     #typing{
-        margin-left: 7.5%;
+        margin-left: 20%;
     }
    
    
@@ -299,7 +299,7 @@ main{
 
 @media screen and (min-width: 1576px) {
     #typing{
-        margin-left: 2%;
+        margin-left: 20%;
     }
     #mobile-nav{
         display: none;
@@ -384,7 +384,6 @@ main{
  @media screen and (max-width: 1280px) {
     #profilepic{
         display: block;
-
         border-radius: 50%;
         margin-left: auto;
         margin-right: auto;
