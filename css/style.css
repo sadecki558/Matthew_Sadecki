@@ -292,11 +292,19 @@ main{
     #desktop-only-work{
         margin-left: 8.25%;
     }
+    #typing{
+        margin-left: 5%;
+    }
+    .main{
+        margin-left: 5%;
+    }
    
 }
 
 @media screen and (min-width: 1576px) {
-    
+    #typing{
+        margin-left: 2%;
+    }
     #mobile-nav{
         display: none;
     }
