@@ -298,16 +298,14 @@ main{
         margin-left: 8.25%;
     }
     #typing{
-        margin-left: 5%;
+        margin-left: 1.5%;
     }
    
    
 }
 
 @media screen and (min-width: 1576px) {
-    #typing{
-        margin-left: 2.5%;
-    }
+    
     #home{
         margin-left: 6%;
     }
@@ -392,7 +390,7 @@ main{
   */
   @media screen and (max-width: 1425px){
       #paragraph{
-          padding-left: 5%;
+          padding-left: 7.5%;
       }
       #home{
         margin-left: 8.25%;
@@ -438,7 +436,7 @@ main{
         padding-right: 10px;
     }
     #typing{
-        margin-left: 7.5%;
+        margin-left: 5%;
     }
 
     
