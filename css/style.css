@@ -233,9 +233,6 @@ main{
     .desktop-only{
         display: inline;
     }
-    #vertical-header{
-        display: inline;
-    }
     #home{
         margin-left: 8.25%;
     }
@@ -269,6 +266,7 @@ main{
     }
 
     #vertical_header{
+        display: inline;
         height: 100%;
         background-color:#f2f3f7;
         padding-top: 45px;
@@ -388,8 +386,7 @@ main{
  @media screen and (max-width: 1280px) {
     #profilepic{
         display: block;
-        height: 15h;
-        width: 15vh;
+
         border-radius: 50%;
         margin-left: auto;
         margin-right: auto;
