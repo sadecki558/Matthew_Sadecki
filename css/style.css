@@ -176,7 +176,7 @@ li > #navlinks::before {
   }
 li > #navlinks:hover::before {
     visibility: visible;
-    transform: scaleX(0.3);
+    transform: scaleX(0.2);
 }
 
 main{

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Matthew Sadecki</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+       <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdn.bootcss.com/typed.js/1.1.4/typed.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">        
+        <link rel="stylesheet" href="css/font-mfizz-2.4.1/font-mfizz.css">
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <link rel="text/javascript" src="js/logic.js">
+        <link rel="stylesheet" href="css/style.css">
+        <style type="text/css">
+		    .write{
+			    font-size: 22px;
+		    }
+		    .container{
+			    text-align: center;
+		    }
+	    </style>
+        
+    </head>
+
+    <body>
+
+        <!-- Desktop Version Begins -->
+
+        
+        <div class="row" id="desktop-stuff">
+            <div class="col-md-2 offset-md-1">
+
+                <!-- Beginning of Vertical Header -->
+                <header class="desktop-only" id="vertical_header">
+                    <img src="images/profilepic.jpg" alt="Matthew Sadecki" id="profilepic">
+                    <h1 id="logo">Matthew Sadecki</h1>
+                    <h1 id="position1">Web Developer & Data Analyst</h1>
+                    <h1 id="position2"><i class="fas fa-map-marked-alt" style="margin-right: 2%;"></i>Toronto, Ontario</h1>
+                    <ul>
+                        <li><a href="#home" id="navlinks">Home</a></li>
+                        <li><a href="#skills" id="navlinks" >Skills</a></li>
+                        <li><a href="#desktop-only-work" id="navlinks">Portfolio</a></li>
+                        <li><a href="http://matthewsadecki.com/blog.html" id="navlinks">Blog</a></li>
+                        <!--<li><a href="#" id="navlinks">Contact</a></li>-->
+                    </ul>
+                    <footer>
+                        Copyright 2020 &copy;
+                        <h1>Made with 
+                            <i class="fa fa-heart" id="heart" aria-hidden="true"></i>
+                            <i class="fa fa-coffee" id="coffee" aria-hidden="true"></i>
+                            <i class="fa fa-code" aria-hidden="true"></i></h1>
+                    </footer>
+                </header>
+
+                <!-- End of Vertical Header -->
+            </div>
+
+
+
+        <!-- Desktop Version of Site Ends -->
+
+        <!-- Mobile Version of Site Begins -->
+        <div class="row" id="mobile-only">
+
+            <!-- Mobile Nav Begins-->
+            <nav id="mobile-nav"><a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons"><i class="fas fa-bars"></i></i></a></nav>
+                <ul id="slide-out" class="sidenav">
+                    <li><div class="user-view">
+                    <div class="background">
+                        <img id="side-nav-img" src="images/gravel.png">
+                    </div>
+                        <a href="#!user"><img class="circle" src="images/profilepic.jpg"></a>
+                        <a href="#!name"><span class="black-text name">Matthew Sadecki</span></a>
+                        
+                    </div>
+                    </li>
+                    <li><a class="sidenav-close" href="#mobile-profile">Bio</a></li>
+                    <li><a class="sidenav-close" href="#skills-mobile-only">Skills</a></li>
+                    <li><a class="sidenav-close" href="#mobile-only-work" >Projects</a></li>
+                </ul>
+                <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons"><i class="fas fa-bars"></i></i></a>
+            
+            <script>
+                    $(document).ready(function(){
+                    $('.sidenav').sidenav();
+        
+                    })
+            </script>
+        </div>
+            <!-- Mobile Nav Ends-->
+
+ 
+    </body>
+</html>
