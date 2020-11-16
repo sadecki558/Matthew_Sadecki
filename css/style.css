@@ -38,6 +38,10 @@ nav{
     margin-bottom: 20%;
 }
 
+#paragraph{
+    padding-left: 0px;
+}
+
 #home_logo_first{
     height: 150px;
     width: 150px;
@@ -210,6 +214,9 @@ main{
     #mobile-nav{
         display: none;
     }
+    #paragraph{
+        padding-left: 2%;
+    }
     .hire{
         margin-left: 8.25%;
     }
@@ -291,7 +298,7 @@ main{
         margin-left: 8.25%;
     }
     #typing{
-        margin-left: 12.5%;
+        margin-left: 5%;
     }
    
    
@@ -299,7 +306,10 @@ main{
 
 @media screen and (min-width: 1576px) {
     #typing{
-        margin-left: 10%;
+        margin-left: 2.5%;
+    }
+    #home{
+        margin-left: 6%;
     }
     #mobile-nav{
         display: none;
@@ -380,13 +390,23 @@ main{
     ##Device = Laptops, Desktops
     ##Screen = B/w 1025px to 1280px
   */
-
+  @media screen and (max-width: 1425px){
+      #paragraph{
+          padding-left: 5%;
+      }
+      #home{
+        margin-left: 8.25%;
+    }
+  }
  @media screen and (max-width: 1280px) {
     #profilepic{
         display: block;
         border-radius: 50%;
         margin-left: auto;
         margin-right: auto;
+    }
+    #paragraph{
+        padding-left: 7.5%;
     }
     #mobile-nav{
         display: none;
