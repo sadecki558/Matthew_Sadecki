@@ -273,8 +273,8 @@ main{
         background-color:#f2f3f7;
         padding-top: 45px;
         padding-bottom: 40px;
-        padding-left: 20px;
-        padding-right:20px;
+        padding-left: 10px;
+        padding-right:10px;
         position: fixed;
         z-index: 1;
        
@@ -365,8 +365,8 @@ main{
         background-color:#f2f3f7;
         padding-top: 45px;
         padding-bottom: 40px;
-        padding-left: 20px;
-        padding-right:20px;
+        padding-left: 10px;
+        padding-right:10px;
         position: fixed;
         z-index: 1;
     }
@@ -420,6 +420,8 @@ main{
     }
     #vertical-header{
         display: inline;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     #typing{
         margin-left: 5%;
